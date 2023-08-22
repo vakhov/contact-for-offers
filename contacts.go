@@ -9,7 +9,7 @@ type Contact struct {
 	telegram string
 }
 
-func (self *Contact) present() (string) {
+func (self *Contact) present() string {
 	return fmt.Sprintf("Hello, my name is %s. My contacts (email:%s, telegram:%s, skype:%s)",
 		self.name, self.email, self.telegram, self.skype)
 }
